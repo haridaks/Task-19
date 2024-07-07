@@ -33,7 +33,9 @@ public class AllPossibleLocators {
 	
 		driver.findElement(By.tagName("button")).click(); //locator to click "send email" button using tagname
 		
-		driver.close();
+		System.out.println("All the locators hit successfully");
+		
+	    driver.close();
 	}
 
 }
